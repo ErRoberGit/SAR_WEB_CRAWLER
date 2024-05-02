@@ -12,7 +12,7 @@ import math
 import os
 
 class SAR_Wiki_Crawler:
-
+    #hola
     def __init__(self):
         # Expresión regular para detectar si es un enlace de la Wikipedia
         self.wiki_re = re.compile(r"(http(s)?:\/\/(es)\.wikipedia\.org)?\/wiki\/[\w\/_\(\)\%]+")
